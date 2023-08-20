@@ -1,0 +1,22 @@
+.App {
+  font-family: sans-serif;
+  text-align: center;
+}
+
+.range {
+  width: 100%;
+  background: gray;
+  -webkit-appearance: none;
+  border-radius: 50px;
+  outline: none;
+}
+
+.range::-webkit-slider-thumb {
+  background: green;
+  height: 20px;
+  width: 20px;
+  cursor: pointer;
+  border-radius: 50%;
+  appearance: none;
+  -webkit-appearance: none;
+}
